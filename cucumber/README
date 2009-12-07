@@ -36,13 +36,3 @@ script/plugin install git://github.com/mischa/cucumber_rails_debug.git
 
 Yes you can specify stuff in swedish...
 - http://github.com/aslakhellesoy/cucumber/blob/master/examples/i18n/se/features/summering.feature
-
-ToDo:
-- Add setup for cucumber (in both projects)
-- Create scenario
-- Create a link and resources list
-- Add MIT style licence.
-- Example:
-  - Scenario: Listing products
-  - Scenario: Showing a product
-  - Scenario: Adding a product
