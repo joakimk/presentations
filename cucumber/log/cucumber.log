@@ -1,0 +1,74 @@
+# Logfile created on Mon Dec 07 17:55:16 +0100 2009  [4;36;1mProduct Create (0.6ms)[0m   [0;1mINSERT INTO "products" ("created_at", "title", "updated_at", "description") VALUES('2009-12-07 16:55:17', 'Book', '2009-12-07 16:55:17', 'A book')[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("created_at", "title", "updated_at", "description") VALUES('2009-12-07 16:55:17', 'Pen', '2009-12-07 16:55:17', 'A pen')[0m
+REQUESTING PAGE: GET /products with {} and HTTP headers {}
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-12-07 17:55:17) [GET]
+  [4;36;1mProduct Load (0.4ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering products/index
+Completed in 5ms (View: 2, DB: 1) | 200 OK [http://www.example.com/products]
+  [4;35;1mProduct Create (0.4ms)[0m   [0mINSERT INTO "products" ("created_at", "title", "updated_at", "description") VALUES('2009-12-07 16:55:17', 'Book', '2009-12-07 16:55:17', 'A book')[0m
+  [4;36;1mProduct Create (0.1ms)[0m   [0;1mINSERT INTO "products" ("created_at", "title", "updated_at", "description") VALUES('2009-12-07 16:55:17', 'Pen', '2009-12-07 16:55:17', 'A pen')[0m
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."title" = 'Book') LIMIT 1[0m
+REQUESTING PAGE: GET /products/1 with {} and HTTP headers {}
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2009-12-07 17:55:17) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering products/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://www.example.com/products/1]
+  [4;35;1mProduct Create (0.5ms)[0m   [0mINSERT INTO "products" ("created_at", "title", "updated_at", "description") VALUES('2009-12-07 16:55:17', 'Book', '2009-12-07 16:55:17', 'A book')[0m
+  [4;36;1mProduct Create (0.1ms)[0m   [0;1mINSERT INTO "products" ("created_at", "title", "updated_at", "description") VALUES('2009-12-07 16:55:17', 'Pen', '2009-12-07 16:55:17', 'A pen')[0m
+REQUESTING PAGE: GET /products with {} and HTTP headers {}
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-12-07 17:55:17) [GET]
+  [4;35;1mProduct Load (0.5ms)[0m   [0mSELECT * FROM "products" [0m
+Rendering products/index
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://www.example.com/products]
+REQUESTING PAGE: GET /products/new with {} and HTTP headers {"HTTP_REFERER"=>"/products"}
+
+
+Processing ProductsController#new (for 127.0.0.1 at 2009-12-07 17:55:17) [GET]
+Rendering products/new
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://www.example.com/products/new]
+REQUESTING PAGE: POST /products with {"commit"=>"Save", "product"=>{"title"=>"Mousepad", "description"=>"Black mousepad"}} and HTTP headers {"HTTP_REFERER"=>"/products/new"}
+
+
+Processing ProductsController#create (for 127.0.0.1 at 2009-12-07 17:55:17) [POST]
+  Parameters: {"commit"=>"Save", "product"=>{"title"=>"Mousepad", "description"=>"Black mousepad"}}
+  [4;36;1mProduct Create (0.1ms)[0m   [0;1mINSERT INTO "products" ("created_at", "title", "updated_at", "description") VALUES('2009-12-07 16:55:17', 'Mousepad', '2009-12-07 16:55:17', 'Black mousepad')[0m
+Redirected to http://www.example.com/products
+Completed in 2ms (DB: 0) | 302 Found [http://www.example.com/products]
+REQUESTING PAGE: GET http://www.example.com/products with {} and HTTP headers {"HTTP_REFERER"=>"/products"}
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-12-07 17:55:17) [GET]
+  [4;35;1mProduct Load (0.4ms)[0m   [0mSELECT * FROM "products" [0m
+Rendering products/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://www.example.com/products]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "products" [0m
+  [4;35;1mProduct Create (1.1ms)[0m   [0mINSERT INTO "products" ("created_at", "title", "updated_at", "description") VALUES('2009-12-07 16:55:17', 'Book', '2009-12-07 16:55:17', 'A book')[0m
+  [4;36;1mProduct Create (0.1ms)[0m   [0;1mINSERT INTO "products" ("created_at", "title", "updated_at", "description") VALUES('2009-12-07 16:55:17', 'Pen', '2009-12-07 16:55:17', 'A pen')[0m
+REQUESTING PAGE: GET /products with {} and HTTP headers {}
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-12-07 17:55:17) [GET]
+  [4;35;1mProduct Load (0.4ms)[0m   [0mSELECT * FROM "products" [0m
+Rendering products/index
+Completed in 2ms (View: 1, DB: 2) | 200 OK [http://www.example.com/products]
+REQUESTING PAGE: GET /products/new with {} and HTTP headers {"HTTP_REFERER"=>"/products"}
+
+
+Processing ProductsController#new (for 127.0.0.1 at 2009-12-07 17:55:17) [GET]
+Rendering products/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://www.example.com/products/new]
+REQUESTING PAGE: POST /products with {"commit"=>"Save", "product"=>{"title"=>"", "description"=>"Black mousepad"}} and HTTP headers {"HTTP_REFERER"=>"/products/new"}
+
+
+Processing ProductsController#create (for 127.0.0.1 at 2009-12-07 17:55:17) [POST]
+  Parameters: {"commit"=>"Save", "product"=>{"title"=>"", "description"=>"Black mousepad"}}
+Rendering products/new
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://www.example.com/products]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "products" [0m
