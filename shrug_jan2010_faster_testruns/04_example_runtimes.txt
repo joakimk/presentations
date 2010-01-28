@@ -1,0 +1,5 @@
+Example runtimes:
+
+      5 computers - 10 cpus: 72 seconds  (rake parallel:testbot_spec) (416% faster)
+      1 computer  -  2 cpus: 200 seconds (rake parallel:spec)         (150% faster)
+      1 computer  -  1 cpus: 300 seconds (rake spec)

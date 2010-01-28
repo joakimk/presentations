@@ -1,0 +1,18 @@
+My testbot project
+
+  - http://github.com/joakimk/testbot
+  - 4 times as fast using 5 computers (10 cores)
+
+Benefits:
+  - Only requires that all computers can access one central server.
+  - Relativly simple to install and maintain.
+
+Cons:
+  - It can hide dependency errors that only show up when you run the entire suite.
+    - Have a Continuous Integration server!
+
+Future goals:  
+  - More efficient.
+  - Better test output.
+  - Support Test:Unit och Cucumber
+  - ...

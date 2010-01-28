@@ -1,0 +1,5 @@
+Alternatives:
+
+      testjour           - using bonjour, cucumber.     
+      deeptest           - using druby / rsync. seems to support Test:Unit and Rspec?
+      http://devver.net/ - service that runs your tests "in the cloud"

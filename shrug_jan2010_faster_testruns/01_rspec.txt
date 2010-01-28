@@ -1,0 +1,23 @@
+RSpec optimization
+
+  - Add "--format profile" to spec/spec.opts and run "rake spec".
+
+Example:
+
+    # rake spec
+    
+    ....
+
+    Top 10 slowest examples:
+    4.1824540 ... 
+    2.2660320 ...
+    1.9165070 ...
+
+
+
+
+Test::Unit?
+
+  A quick google...
+  - http://github.com/timocratic/test_benchmark
+  - http://xplayer.wordpress.com/2009/10/02/ruby-how-to-spot-slow-tests-in-your-test-suite/

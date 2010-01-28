@@ -1,0 +1,4 @@
+Other tips:
+
+      Keeping the environment running:   spork    - http://github.com/timcharper/spork
+      Only running the tests you change: autotest - http://github.com/grosser/autotest
