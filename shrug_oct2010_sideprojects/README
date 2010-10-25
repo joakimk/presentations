@@ -1,0 +1,5 @@
+A short presentation done at SHRUG (Stockholm Ruby User Group), Oct 2010
+
+1) gem install showoff
+2) showoff serve
+3) Go to http://localhost:9090
