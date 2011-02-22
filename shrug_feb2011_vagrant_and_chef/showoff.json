@@ -1,0 +1,7 @@
+{
+  "name": "Vagrant",
+  "description": "A presentation done at SHRUG (Stockholm Ruby User Group), Feb 2011",
+  "sections": [
+    { "section" : "slides" }
+  ]
+}

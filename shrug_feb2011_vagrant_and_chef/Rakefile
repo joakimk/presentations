@@ -1,0 +1,5 @@
+desc "Just runs 'showoff serve'"
+task :default do
+  system "showoff serve"
+end
+
