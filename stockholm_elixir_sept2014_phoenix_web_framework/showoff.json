@@ -1,0 +1,7 @@
+{
+  "name": "Phoenix Web Framework",
+  "description": "A presentation done at Stockholm Elixir, sept 2014",
+  "sections": [
+    { "section" : "slides" }
+  ]
+}

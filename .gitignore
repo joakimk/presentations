@@ -1,1 +1,2 @@
 cucumber/logs/*.log
+**/stats/*
