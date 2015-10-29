@@ -1,0 +1,7 @@
+{
+  "name": "Toniq",
+  "description": "A presentation done at Stockholm Elixir, oct 2015",
+  "sections": [
+    { "section" : "slides" }
+  ]
+}
